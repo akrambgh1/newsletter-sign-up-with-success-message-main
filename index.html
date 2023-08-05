@@ -1,0 +1,53 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png" />
+
+    <title>
+      Frontend Mentor | Newsletter sign-up form with success message
+    </title>
+    <link rel="stylesheet" href="style.css">
+    <link  href="java.js">
+  </head>
+  <body>
+    <script src="java.js"></script>
+    <section class="page-one">
+      <div class="big-cont">
+      <div class="container">
+      <h1>Stay updated</h1>
+      <h6>Join 60,000+ product managers receiving monthly updates on:</h6>
+      <span><img src="icon-list.svg" class="list-img">
+
+        <p>Product discovery and building what matters</p></span>
+        <span><img src="icon-list.svg" class="list-img">
+        <p>Measuring to ensure updates are a success</p></span>
+        <span> <img src="icon-list.svg" class="list-img">
+        <p>And much more!</p></span>
+        
+      
+      <label for="inpuy">Email address</label>
+      <input type="email" placeholder="email@company.com" value="">
+        <input onclick="hi()" type="submit" value="Subscribe to monthly newsletter">
+        </div>
+        <img src="illustration-sign-up-desktop.svg">
+    </div>
+  </section>
+    <section class="page-two">
+      <div class="cont-two">
+        <img src="icon-success.svg" >
+        <h1>Thanks for subscribing!</h1>
+        <p>A confirmation email has been sent to
+        <span></span>. Please open it and click the button inside to confirm
+        your subscription.</p> 
+        <input  class="sub" type="submit" value="Dismiss message">
+</div>
+  </section>
+  </body>
+</html>
