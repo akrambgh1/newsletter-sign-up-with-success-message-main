@@ -13,41 +13,89 @@
     <title>
       Frontend Mentor | Newsletter sign-up form with success message
     </title>
-    <link rel="stylesheet" href="style.css">
-    <link  href="java.js">
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <script src="java.js"></script>
-    <section class="page-one">
-      <div class="big-cont">
-      <div class="container">
-      <h1>Stay updated</h1>
-      <h6>Join 60,000+ product managers receiving monthly updates on:</h6>
-      <span><img src="icon-list.svg" class="list-img">
+    <section class="box">
+      <div class="text">
+        <h1>Stay updated!</h1>
+        <p class="first">
+          Join 60,000+ products managers recieving monthly updates on:
+        </p>
 
-        <p>Product discovery and building what matters</p></span>
-        <span><img src="icon-list.svg" class="list-img">
-        <p>Measuring to ensure updates are a success</p></span>
-        <span> <img src="icon-list.svg" class="list-img">
-        <p>And much more!</p></span>
-        
-      
-      <label for="inpuy">Email address</label>
-      <input type="email" placeholder="email@company.com" value="">
-        <input onclick="hi()" type="submit" value="Subscribe to monthly newsletter">
+        <div class="check 1">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="21"
+            height="21"
+            viewBox="0 0 21 21">
+            <g fill="none">
+              <circle cx="10.5" cy="10.5" r="10.5" fill="#FF6155" />
+              <path
+                stroke="#FFF"
+                stroke-width="2"
+                d="M6 11.381 8.735 14 15 8" />
+            </g>
+          </svg>
+          <p>Product discovery and building what matters</p>
         </div>
-        <img src="illustration-sign-up-desktop.svg">
-    </div>
-  </section>
+        <div class="check 2">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="21"
+            height="21"
+            viewBox="0 0 21 21">
+            <g fill="none">
+              <circle cx="10.5" cy="10.5" r="10.5" fill="#FF6155" />
+              <path
+                stroke="#FFF"
+                stroke-width="2"
+                d="M6 11.381 8.735 14 15 8" />
+            </g>
+          </svg>
+          <p>Measuring to ensure updates are a success</p>
+        </div>
+        <div class="check 3">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="21"
+            height="21"
+            viewBox="0 0 21 21">
+            <g fill="none">
+              <circle cx="10.5" cy="10.5" r="10.5" fill="#FF6155" />
+              <path
+                stroke="#FFF"
+                stroke-width="2"
+                d="M6 11.381 8.735 14 15 8" />
+            </g>
+          </svg>
+          <p>Add much more!</p>
+        </div>
+
+        <div class="checking">
+          <form action="#">
+            <label>E-mail adress</label>
+            <span class="span"></span>
+            <input id="white" type="email" value="" onkeydown="validation()" />
+            <button onclick="hi()" class="click">
+              Subscribe to monthly newsteller
+            </button>
+          </form>
+        </div>
+      </div>
+      <div class="aside"></div>
+    </section>
     <section class="page-two">
       <div class="cont-two">
-        <img src="icon-success.svg" >
+        <img src="icon-success.svg" />
         <h1>Thanks for subscribing!</h1>
-        <p>A confirmation email has been sent to
-        <span></span>. Please open it and click the button inside to confirm
-        your subscription.</p> 
-        <input  class="sub" type="submit" value="Dismiss message">
-</div>
-  </section>
+        <p>
+          A confirmation email has been sent to <b></b>. Please open it and
+          click the button inside to confirm your subscription.
+        </p>
+        <button class="sub">Dismiss message</button>
+      </div>
+    </section>
   </body>
 </html>
